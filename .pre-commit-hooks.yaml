@@ -1,0 +1,16 @@
+- id: cue-fmt
+  name: cue-fmt
+  description: Runs `cue fmt`, requires cue
+  language: system
+  entry: cue fmt
+  args: [-s]
+  files: '\.cue'
+  types: [text]
+- id: cue-trim
+  name: cue-trim
+  description: Runs `cue trim`, requires cue
+  language: system
+  entry: cue trim
+  args: [-s]
+  files: '\.cue'
+  types: [text]
